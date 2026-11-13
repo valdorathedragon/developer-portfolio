@@ -125,26 +125,6 @@ const RESUME_DATA = {
               "Designed an anomaly detection pipeline using Isolation Forest to flag high-risk mule accounts and transaction velocity spikes.",
               "Implemented persistent SQLite logging and automated data validation checks for banking fraud screening."
             ]
-          },
-          {
-            title: "CSE103 Lab Portfolio & System Automation",
-            stack: "Python, Bash, Git, REST APIs",
-            date: "November 2026",
-            link: "https://github.com/valdorathedragon/cse103-lab-LAB3",
-            bullets: [
-              "Automated system diagnostics and directory backups using custom Bash shell scripts in a Linux environment.",
-              "Configured Git version control workflows and parsed live GitHub REST API JSON responses using curl and Python."
-            ]
-          },
-          {
-            title: "Automated EDA & Data Cleaning Pipeline",
-            stack: "Python, Pandas, Markdown",
-            date: "November 2026",
-            link: "https://github.com/valdorathedragon/Dscapstone",
-            bullets: [
-              "Analysed raw tabular datasets to resolve missing values, outliers, and schema inconsistencies via modular Python scripts.",
-              "Developed structured exploratory data analysis summaries and technical documentation for reproducible workflows."
-            ]
           }
         ]
       }
