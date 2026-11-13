@@ -32,4 +32,25 @@ See [PROGRESS.md](./docs/PROGRESS.md) for coding platform progress.
 
 <div align="center">
 
-<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:38bdf8&height=200&section=header&text=Vedant%20Srivastava&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Developer%20Portfolio%20%E2%80%A2%20BCA%20(AI%20%26%20Data%20Science)&descAlignY=58&descSize=16" width="100%" />
+
+<a href="https://valdorathedragon.github.io/developer-portfolio/">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=720&lines=Building+AI+Anomaly+Detection+Systems;Python+%7C+Scikit-Learn+%7C+Linux+Automation+%7C+Web+Dev;K.R.+Mangalam+University+%E2%80%A2+Batch+2026%E2%80%9329" alt="Typing SVG" />
+</a>
+
+<p>
+  <a href="https://valdorathedragon.github.io/developer-portfolio/">
+    <img src="https://img.shields.io/badge/LIVE_PORTFOLIO-38BDF8?style=for-the-badge&logo=githubpages&logoColor=0f172a" alt="Live Portfolio" />
+  </a>
+  <a href="./assets/docs/Resume.pdf">
+    <img src="https://img.shields.io/badge/RESUME_PDF-10B981?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Resume" />
+  </a>
+  <a href="https://www.linkedin.com/in/vedant-srivastava-945123404">
+    <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:2601060015@krmu.edu.in">
+    <img src="https://img.shields.io/badge/EMAIL_ME-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
+
+</div>
