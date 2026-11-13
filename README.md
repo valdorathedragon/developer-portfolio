@@ -1,4 +1,3 @@
-
 # Vedant Srivastava — Developer Portfolio
 
 > BCA (AI & Data Science) Student | K.R. Mangalam University, Gurugram | Batch 2026-29
@@ -22,7 +21,6 @@ Linux / Bash [██████░░░░] 60%
 Git / GitHub [███████░░░] 70%
 ```
 
-
 ## Learning Roadmap
 
 See [LEARNING_ROADMAP.md](./docs/LEARNING_ROADMAP.md) for my full 6-semester plan.
@@ -30,3 +28,8 @@ See [LEARNING_ROADMAP.md](./docs/LEARNING_ROADMAP.md) for my full 6-semester pla
 ## Progress Tracker
 
 See [PROGRESS.md](./docs/PROGRESS.md) for coding platform progress.
+
+
+<div align="center">
+
+<div align="center">
