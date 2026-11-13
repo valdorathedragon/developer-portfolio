@@ -1,7 +1,9 @@
+
 # 6-Semester Personalized Technical & Career Roadmap (2026–2029)
 
 **Name:** Vedant Srivastava
 **Program:** BCA (Artificial Intelligence & Data Science) — K.R. Mangalam University, Gurugram
+**Current Status:** Semester 1 (Final ~5 weeks remaining)
 **Primary Specialisation (Sem 5+):** Track B — Data Science & AI / ML (Secondary: Track C — Cybersecurity)
 **Target Companies:** Amazon, Microsoft, and Tier-1 Product Engineering Organizations
 **Long-Term Academic Goal:** Master of Computer Applications (MCA) / Graduate Studies Abroad
@@ -23,15 +25,37 @@
 
 ---
 
+## Mentorship Plan
+
+* **Primary Faculty Mentor:** **Pooja Ma'am** (Mathematics) — Mentorship for mathematical foundations, analytical problem-solving, and academic planning
+* **Subject Mentors:** **Mamta Ma'am** & **Aarti Ma'am** — Guidance and conceptual clarity in Computer Science and Data Science
+
+---
+
+## Current Semester (Semester 1) — Concrete Monthly Targets
+
+1. **High-Volume Problem Practice:** Solve coding and logic questions daily across **LeetCode**, **HackerRank**, and custom AI-generated practice sets (**Gemini** & **Claude**).
+2. **Project Execution & GitHub Shipping:** Build and maintain live working projects in Python and Web Development, alongside active development on the **Mule Account Detection Engine**.
+3. **Core Fundamentals Mastery:** Deepen theoretical clarity across all Semester 1 subjects beyond project coding ahead of end-semester evaluations.
+
+---
+
+## Flagship Personal Project
+
+* **Mule Account Detection Engine (`mule-account-detector`):** An AI-driven financial anomaly and fraud detection engine utilizing IsolationForest, transaction velocity profiling, and behavioral analytics to flag post-KYC mule accounts in real time.
+
+---
+
 ## Semester 1 (Aug – Dec 2026) — Core Language Mastery, Git/GitHub & Live Projects
 
+* **University Subjects:** Mathematics, Web Development, Computer Science Fundamentals & Career Pathways (CSE103), Communication, Data Handling
 * **Primary Language Focus:** Master **Python** as primary core programming language end-to-end
-* **Developer Tooling:** Master **Git & GitHub** workflows (branching, commits, pull requests, repositories) and Linux CLI
-* **Certifications:** HackerRank Python (Basic) Certified (Completed) + foundational skill badges
+* **Developer Tooling:** Master **Git & GitHub** workflows (branching, commits, pull requests, repositories) and Linux/WSL2 CLI
+* **Certifications:** HackerRank Python (Basic) Certified (Completed)
 * **Live Portfolio Projects (Deployed on GitHub):**
-  * **Python Project:** Working, live Python application repository (`cse103-lab-LAB3` / utility tools)
+  * **Python Project:** Working, live Python repository (`cse103-lab-LAB3`)
   * **Web Development Project:** Working, live web development project hosted and deployed on GitHub
-  * **Flagship Project:** Initial architecture and anomaly detection prototype for `mule-account-detector`
+  * **Flagship Project:** Core anomaly detection prototype for `mule-account-detector`
 
 ---
 
@@ -78,9 +102,9 @@
 
 ---
 
-## Semester 5 (Aug – Dec 2028) — Specialisation (Track B: AI/ML & Cybersecurity), PPO & Global Prep
+## Semester 5 (Aug – Dec 2028) — Track B: Data Science & AI / ML (with Cybersecurity), PPO & Global Prep
 
-* **Specialisation Focus:** Data Science, AI/ML pipelines, and AI-driven Cybersecurity systems
+* **Chosen Specialisation Track:** **Track B — Data Science & AI / ML** (with applied **Track C — Cybersecurity** focus)
 * **Career & Financial Execution:**
   * Complete industry internship and pursue **Pre-Placement Offer (PPO)** conversion
   * Continue scaling toward and surpassing the **₹2.5 Lakh** cumulative earning target
