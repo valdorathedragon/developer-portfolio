@@ -32,10 +32,8 @@ See [PROGRESS.md](./docs/PROGRESS.md) for coding platform progress.
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:38bdf8&height=200&section=header&text=Vedant%20Srivastava&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Developer%20Portfolio%20%E2%80%A2%20BCA%20(AI%20%26%20Data%20Science)&descAlignY=58&descSize=16" width="100%" />
-
 <a href="https://valdorathedragon.github.io/developer-portfolio/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=720&lines=Building+AI+Anomaly+Detection+Systems;Python+%7C+Scikit-Learn+%7C+Linux+Automation+%7C+Web+Dev;K.R.+Mangalam+University+%E2%80%A2+Batch+2026%E2%80%9329" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=720&lines=Building+AI+Anomaly+Detection+Systems;Python+%7C+Scikit-Learn+%7C+Linux+Automation+%7C+Web+Dev;K.R.+Mangalam+University+%E2%80%A2+Batch+2026%E2%80%932029" alt="Typing SVG" />
 </a>
 
 <p>
@@ -54,3 +52,4 @@ See [PROGRESS.md](./docs/PROGRESS.md) for coding platform progress.
 </p>
 
 </div>
+
