@@ -1,152 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vedant Srivastava — Developer Portfolio</title>
-<style>
-* { box-sizing: border-box; margin: 0; padding: 0; }
-body {
-  font-family: Arial, sans-serif; color: #2c2c2c;
-  line-height: 1.75; max-width: 860px;
-  margin: 48px auto; padding: 0 24px;
-}
-header {
-  border-bottom: 4px solid #1F4E79;
-  padding-bottom: 20px; margin-bottom: 36px;
-}
-h1 { color: #1F4E79; font-size: 2rem; margin-bottom: 6px; }
-h2 {
-  color: #2E75B6; font-size: 1.15rem; font-weight: bold;
-  margin: 32px 0 14px; padding-left: 12px;
-  border-left: 5px solid #2E75B6;
-}
-.badge {
-  display: inline-block; background: #1F4E79; color: #fff;
-  padding: 4px 14px; border-radius: 16px;
-  font-size: 0.82rem; margin: 4px 4px 4px 0;
-}
-.card {
-  border: 1px solid #d0d8e4; border-radius: 8px;
-  padding: 20px 22px; margin: 12px 0; background: #f7faff;
-}
-.card h3 { color: #1F4E79; margin-bottom: 8px; }
-.card p { margin-bottom: 6px; }
-table {
-  width: 100%; border-collapse: collapse; margin: 14px 0;
-}
-th {
-  background: #1F4E79; color: #fff;
-  padding: 8px 12px; text-align: left; font-size: 0.9rem;
-}
-td { padding: 8px 12px; border-bottom: 1px solid #e0e8f0; font-size: 0.9rem; }
-tr:nth-child(even) td { background: #f0f5fb; }
-a { color: #2E75B6; text-decoration: none; }
-a:hover { text-decoration: underline; }
-footer {
-  margin-top: 48px; padding-top: 18px;
-  border-top: 1px solid #d0d8e4;
-  text-align: center; font-size: 0.82rem; color: #888;
-}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vedant Srivastava — Interactive Galaxy Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<header>
-  <h1>Hi, I am Vedant Srivastava</h1>
-  <p>BCA (AI &amp; Data Science) Student • K.R. Mangalam University, Gurugram • Batch 2026–29</p>
-  <p style="margin-top:12px">
-    <span class="badge">Python</span>
-    <span class="badge">Linux / WSL2</span>
-    <span class="badge">Git &amp; GitHub</span>
-    <span class="badge">Shell Scripting</span>
-    <span class="badge">REST APIs</span>
-    <span class="badge">HTML / CSS</span>
-  </p>
-</header>
+  <!-- Cinematic Loading Screen -->
+  <div id="loader" class="loader" role="status" aria-live="polite">
+    <div class="loader-ring"></div>
+    <p class="loader-text">INITIALIZING SECTOR // VEDANT SRIVASTAVA</p>
+  </div>
 
-<h2>About Me</h2>
-<p>
-  I am a first-year BCA (Artificial Intelligence &amp; Data Science) undergraduate at K.R. Mangalam University, Gurugram, focused on Python engineering, machine learning anomaly detection, and Linux developer workflows. My goal is to build production-grade AI security systems and secure software engineering roles at top global product companies.
-</p>
+  <!-- 3D WebGL Galaxy Canvas -->
+  <canvas id="galaxy-canvas" aria-label="Interactive 3D Resume Galaxy"></canvas>
 
-<h2>Featured Projects</h2>
+  <!-- Floating 2D Planet Labels Layer -->
+  <div id="labels-layer" class="labels-layer" aria-hidden="true"></div>
 
-<div class="card">
-  <h3>Mule Account Detection Engine</h3>
-  <p>
-    An AI-driven real-time financial anomaly detection engine engineered to detect post-KYC fraud, transaction velocity spikes, and high-risk mule accounts using IsolationForest and behavioral analytics.
-  </p>
-  <p><strong>Tech Stack:</strong> Python, Pandas, Scikit-Learn, IsolationForest, SQLite</p>
-  <p>
-    <a href="https://github.com/valdorathedragon/mule-account-detector">
-      View Repository on GitHub →
-    </a>
-  </p>
-</div>
+  <!-- Subtle Edge Vignette -->
+  <div class="vignette" aria-hidden="true"></div>
 
-<div class="card">
-  <h3>CSE103 Lab — GitHub Collaboration &amp; API Interaction</h3>
-  <p>
-    K.R. Mangalam University | CSE103 Lab Repository covering Git workflows, Linux shell scripting, Markdown documentation, REST API JSON parsing, and standardized project layout (src/tests/docs).
-  </p>
-  <p><strong>Tech Stack:</strong> Python, Bash/Zsh, Git, GitHub, curl, jq, Linux</p>
-  <p>
-    <a href="https://github.com/valdorathedragon/cse103-lab-LAB3">
-      View Repository on GitHub →
-    </a>
-  </p>
-</div>
+  <!-- Top HUD Bar -->
+  <header class="hud-top">
+    <div class="brand">
+      <span class="brand-dot" aria-hidden="true"></span>
+      <div>
+        <h1 class="brand-name" id="hud-name">Vedant Srivastava</h1>
+        <p class="brand-sub" id="hud-role">BCA — AI &amp; Data Science</p>
+      </div>
+    </div>
 
-<div class="card">
-  <h3>Developer Portfolio Index</h3>
-  <p>
-    A centralised index of my repositories, a customised 6-semester AI &amp; Data Science learning roadmap, and a live coding platform progress tracker.
-  </p>
-  <p><strong>Tech Stack:</strong> Markdown, HTML5, CSS3, GitHub Pages</p>
-  <p>
-    <a href="https://github.com/valdorathedragon/developer-portfolio">
-      View Repository on GitHub →
-    </a>
-  </p>
-</div>
+    <div class="hud-controls">
+      <button id="audio-toggle" class="hud-btn" type="button" aria-pressed="false" title="Toggle ambient space audio">
+        <span class="btn-icon" aria-hidden="true">🔇</span>
+        <span class="btn-label">Ambient: Off</span>
+      </button>
+      <button id="a11y-toggle" class="hud-btn" type="button" aria-expanded="false" aria-controls="accessible-view">
+        <span class="btn-icon" aria-hidden="true">☰</span>
+        <span class="btn-label">Text View</span>
+      </button>
+    </div>
+  </header>
 
-<h2>Technical Skills</h2>
-<table>
-  <tr><th>Category</th><th>Technologies</th></tr>
-  <tr><td>Languages</td><td>Python, Bash / Zsh Shell Scripting, HTML5, CSS3</td></tr>
-  <tr><td>Tools</td><td>Git, GitHub, VS Code, WSL2 Ubuntu Terminal, curl, jq</td></tr>
-  <tr><td>Concepts</td><td>File Systems, Process Management, REST APIs, Anomaly Detection, Markdown</td></tr>
-  <tr><td>Platforms</td><td>HackerRank (Python Basic Certified), LeetCode, freeCodeCamp</td></tr>
-</table>
+  <!-- Intro Onboarding Hint -->
+  <div id="explore-hint" class="explore-hint" role="status">
+    Click a planet to explore &bull; Drag to orbit &bull; Scroll to zoom
+  </div>
 
-<h2>Certifications &amp; Progress</h2>
-<p>
-  HackerRank Python (Basic) —
-  <a href="https://www.hackerrank.com/certificates/aba8a6bac06f">Earned (ID: ABA8A6BAC06F)</a>
-</p>
-<p>LeetCode: 2 Easy problems solved (Two Sum, Palindrome Number)</p>
-<p>freeCodeCamp: Responsive Web Design — 25 Steps Completed (In Progress)</p>
+  <!-- Glassmorphism Planet Info Panel -->
+  <aside id="info-panel" class="info-panel" role="dialog" aria-modal="true" aria-labelledby="panel-title" hidden>
+    <div class="panel-header">
+      <div class="panel-meta">
+        <span id="panel-index" class="panel-index">01 / 07</span>
+        <span id="panel-tag" class="panel-tag">CORE STAR</span>
+      </div>
+      <button id="panel-close" class="close-btn" type="button" aria-label="Return to galaxy view">
+        &larr; Galaxy View <kbd>ESC</kbd>
+      </button>
+    </div>
 
-<h2>Learning Roadmap</h2>
-<p>
-  I have planned a structured 6-semester roadmap covering core CS, databases, web development, and my chosen specialisation track
-  (<strong>Track B — Data Science &amp; AI / ML</strong>, with secondary focus on <strong>Track C — Cybersecurity</strong>).
-  Full details:
-  <a href="https://github.com/valdorathedragon/developer-portfolio/blob/main/LEARNING_ROADMAP.md">
-    View Roadmap
-  </a>
-</p>
+    <h2 id="panel-title" class="panel-title">About Me</h2>
+    <div id="panel-body" class="panel-body"></div>
 
-<h2>Contact</h2>
-<p>GitHub &nbsp;&nbsp;&nbsp;:
-  <a href="https://github.com/valdorathedragon">github.com/valdorathedragon</a></p>
-<p>LinkedIn :
-  <a href="https://www.linkedin.com/in/vedant-srivastava-945123404">linkedin.com/in/vedant-srivastava-945123404</a></p>
-<p>Email &nbsp;&nbsp;&nbsp;: <a href="mailto:2601060015@krmu.edu.in">2601060015@krmu.edu.in</a></p>
+    <div class="panel-footer">
+      <button id="prev-planet" class="nav-step-btn" type="button">&larr; Previous Sector</button>
+      <button id="next-planet" class="nav-step-btn" type="button">Next Sector &rarr;</button>
+    </div>
+  </aside>
 
-<footer>
-  Built with HTML &amp; CSS • Hosted on GitHub Pages •
-  Updated November 2026
-</footer>
+  <!-- Bottom HUD Planet Navigation Bar -->
+  <nav class="hud-nav" aria-label="Resume Sections">
+    <ul id="planet-nav-list" class="planet-nav-list"></ul>
+  </nav>
+
+  <!-- Accessible Text Fallback Overlay -->
+  <main id="accessible-view" class="accessible-view" hidden>
+    <div class="accessible-container">
+      <div class="accessible-top">
+        <h2>Accessible Resume View</h2>
+        <button id="a11y-close" class="hud-btn" type="button">Return to 3D Galaxy</button>
+      </div>
+      <div id="accessible-content"></div>
+    </div>
+  </main>
+
+  <noscript>
+    <div class="noscript-fallback">
+      <h1>Vedant Srivastava</h1>
+      <p>+91-9560678977 | 2601060015@krmu.edu.in | Gurugram, Haryana</p>
+      <p>GitHub: https://github.com/valdorathedragon | LinkedIn: https://linkedin.com/in/vedant-srivastava-945123404</p>
+      <h2>Education</h2>
+      <p>Bachelor of Computer Applications (BCA) — Artificial Intelligence &amp; Data Science, K.R. Mangalam University, Gurugram (Expected: December 2029)</p>
+      <h2>Technical Skills</h2>
+      <p>Languages: Python, Bash / Shell Scripting, SQL | Tools: Git, GitHub, VS Code, Linux Terminal, Postman, Ollama | Concepts: File Systems, Process Management, REST APIs, Markdown, Prompt Engineering</p>
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Mule Account Detection Engine</strong> (November 2026) — Python, Pandas, Scikit-Learn, SQLite</li>
+        <li><strong>CSE103 Lab Portfolio &amp; System Automation</strong> (November 2026) — Python, Bash, Git, REST APIs</li>
+        <li><strong>Automated EDA &amp; Data Cleaning Pipeline</strong> (November 2026) — Python, Pandas, Markdown</li>
+      </ul>
+      <h2>Extra-Curricular</h2>
+      <p>Aarambhathon 2.0 University Hackathon — K.R. Mangalam University (November 2026)</p>
+    </div>
+  </noscript>
+
+  <!-- Pinned Three.js Build (UMD compatible with both file:// and GitHub Pages) -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.149.0/build/three.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
