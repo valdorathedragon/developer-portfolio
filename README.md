@@ -25,8 +25,8 @@ Git / GitHub [███████░░░] 70%
 
 ## Learning Roadmap
 
-See [LEARNING_ROADMAP.md](https://www.google.com/search?q=./LEARNING_ROADMAP.md) for my full 6-semester plan.
+See [LEARNING_ROADMAP.md](./docs/LEARNING_ROADMAP.md/search?q=./LEARNING_ROADMAP.md) for my full 6-semester plan.
 
 ## Progress Tracker
 
-See [PROGRESS.md](https://www.google.com/search?q=./PROGRESS.md) for coding platform progress.
+See [PROGRESS.md](./docs/LEARNING_ROADMAP.md/search?q=./PROGRESS.md) for coding platform progress.
