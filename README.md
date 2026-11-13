@@ -30,11 +30,7 @@ See [LEARNING_ROADMAP.md](./docs/LEARNING_ROADMAP.md) for my full 6-semester pla
 See [PROGRESS.md](./docs/PROGRESS.md) for coding platform progress.
 
 
-<div align="center">
-
-<a href="https://valdorathedragon.github.io/developer-portfolio/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=720&lines=Building+AI+Anomaly+Detection+Systems;Python+%7C+Scikit-Learn+%7C+Linux+Automation+%7C+Web+Dev;K.R.+Mangalam+University+%E2%80%A2+Batch+2026%E2%80%932029" alt="Typing SVG" />
-</a>
+<<div align="center">
 
 <p>
   <a href="https://valdorathedragon.github.io/developer-portfolio/">
@@ -52,4 +48,3 @@ See [PROGRESS.md](./docs/PROGRESS.md) for coding platform progress.
 </p>
 
 </div>
-
